@@ -48,6 +48,6 @@ require('crypto').randomBytes(24).toString('hex')
 
 10.If you want your app public, you must submit an app review to facebook and provide them with all the necessary requirements.
 
-##Disclaimer
+## Disclaimer
 
 Weather Wonder is for educational and legal purposes only, I and anyone affiliated with Weather Wonder are not responsible for misuse of this product by anyone. Please help keep weather wonder a great and useful weather predicting machine for everyone around the world!
