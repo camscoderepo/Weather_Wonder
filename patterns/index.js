@@ -12,6 +12,10 @@ const patternDict = [
     intent: "CurrentWeather"
   },
   {
+    pattern: "\\b(?<help>Help|help|HELP)\\b",
+    intent: "Help"
+  },
+  {
     pattern:
       "\\b(?<weather>rain|rainy|sunny|cloudy|snow|thunderstorms|windy|drizzle)\\b\\sin\\s\\b(?<city>[a-z]+[ a-z]+?)\\b(?<time>day\\safter\\stomorrow|tomorrow|today)$",
     intent: "WeatherForecast"
