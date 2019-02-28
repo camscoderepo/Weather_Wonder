@@ -18,7 +18,7 @@ nodemon: npm i nodemon
 Currently Weather Wonder can provide feedback on the weather today and tomorrow.
 I also recently added a help feature, it is very basic at the moment but hope for updates in the near future.
 
-##Usage
+## Usage
 Once everything is installed if you want to run the project locally you will have to download and use ngrok as a local webhook.
 
 If you want to deploy the project to a server everything is already setup for a deployment to heroku. If you choose a different option that will be on you to setup all of the requirements to run in that environment.
