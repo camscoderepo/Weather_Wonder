@@ -31,6 +31,8 @@ server.post('/', (req, res, next) =>  {
               break;
             case 'Help':
               await f.txt(data.sender, 'I am a weather bot that can provide you weather data from anywhere in the world. Just type in something like what is the weather like in new york');
+              break;
+              
             case 'CurrentWeather':
               await f.txt(data.sender, 'Let me check...');
               let cwData = await weather(resp.entities.city, 'current');
