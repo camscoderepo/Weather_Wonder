@@ -26,17 +26,26 @@ If you want to deploy the project to a server everything is already setup for a 
 Everything is setup to use the messenger platform and these instructions are meant for setup on that platform.
 
 1.Create or login to your facebook developer account and create a new app.
+
 2.Add a page to the app and you can name it whatever you would like.
+
 3.Add the messenger product to your application and generate a page access token, place this into development.json as pageAccessToken.
+
 4.Add an event to the webhook option, this should create a new product called webhooks you can add a webhook too.
+
 5.Make sure ngrok is installed and open another terminal and navigate to the ngrok directory(wherever you stored ngrok) and run ngrok http 3000.
+
 6.In a different terminal run node and hit enter. type what is below to create a unique verification token. Put this token in the verifyToken spot in development.json.
 ```
 require('crypto').randomBytes(24).toString('hex')
 ```
+
 7.Add the ngrok https address provided to the webhooks product subscription in your facebook app and make sure the page you made is selected and add the verifyToken in as the second option. This is for local only, if you are running this on a server you would add the heroku url or wherever the server can be accessed.
+
 8.Subscribe your page to the webhook and you should be able to message yourself at this point.
+
 9.Go to basic settings and find the app secret and copy it. Paste the app secret in development.json as appSecret
+
 10.If you want your app public, you must submit an app review to facebook and provide them with all the necessary requirements.
 
 ##Disclaimer
