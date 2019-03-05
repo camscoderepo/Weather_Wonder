@@ -50,4 +50,7 @@ require('crypto').randomBytes(24).toString('hex')
 
 ## Disclaimer
 
-Weather Wonder is for educational and legal purposes only, I and anyone affiliated with Weather Wonder are not responsible for misuse of this product by anyone. Please help keep weather wonder a great and useful weather predicting machine for everyone around the world!
+Weather Wonder is for educational and legal purposes only, I and anyone affiliated with Weather Wonder are not responsible for misuse of this product by anyone. Please help keep weather wonder a great and useful weather predicting machine for everyone around the world! 
+
+Weather wonder was a part of the build incredible chatbots course on udemy.
+https://www.udemy.com/build-incredible-chatbots
