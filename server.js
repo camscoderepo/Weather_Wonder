@@ -39,12 +39,6 @@ server.post('/', (req, res, next) =>  {
               let cwResult = currentWeather(cwData);
               await f.txt(data.sender, cwResult);
               break;
-            case 'CurrentWeatherShortened':
-              await f.txt(data.sender, 'Checking on that...');
-              let cwData = await weather(resp.entities.city, 'current');
-              let cwResult = currentWeather(cwData);
-              await f.txt(data.sender, cwResult);
-              break;
             case 'WeatherForecast':
             await f.txt(data.sender, 'Let me check...');
             let wfData = await weather(resp.entities.city);
