@@ -12,10 +12,6 @@ const patternDict = [
     intent: "CurrentWeather"
   },
   {
-    pattern: "\\b(?<city>.+)\\b",
-    intent: "CurrentWeatherShortened"
-  },
-  {
     pattern: "\\b(?<help>Help|help|HELP)\\b",
     intent: "Help"
   },
