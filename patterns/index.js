@@ -12,7 +12,7 @@ const patternDict = [
     intent: "CurrentWeather"
   },
   {
-    pattern: "(?<city>.+)",
+    pattern: "\\s(?<city>+?)",
     intent: "CurrentWeather"
   },
   {
