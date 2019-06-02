@@ -24,6 +24,11 @@ const patternDict = [
     pattern:
       "\\b(?<weather>rain|rainy|sunny|cloudy|snow|thunderstorms|windy|drizzle)\\b\\s\\b(?<time>day\\safter\\stomorrow|tomorrow|today)\\sin\\s\\b(?<city>[a-z]+[ a-z]+?)$",
     intent: "WeatherForecast"
+  },
+  {
+    pattern:
+      "\\b(?<weather>rain|rainy|sunny|cloudy|snow|thunderstorms|windy|drizzle)\\b(?<city>[a-z]+[ a-z]+?)\\b",
+    intent: "WeatherForecast"
   }
 ];
 
